@@ -10,8 +10,8 @@
         }
 
     - Basic IO 
-        << - Extraction Operator (Output)
-        >> - Insertion Operator (input)
+        >> - Extraction Operator (Output)
+        << - Insertion Operator (input)
         cin - input 
         cout - output.
         endl - New line print. 
