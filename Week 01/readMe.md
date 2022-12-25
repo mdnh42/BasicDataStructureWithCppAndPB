@@ -1,4 +1,5 @@
-# Week-01 (Module-1)
+## Week-01 
+### (Module-1)
 - Introduction 
         Basic Syntax 
         #include<iostream>
@@ -109,4 +110,23 @@
 
         break and Continue 
         [Break use when condtion match]
+
+### (Module-2)
+    - Array 
+
+
+    - String 
+
+    - Function 
+
+    - Pointer 
+
+
+    -Dynamic Allocation 
+
+    - Vector 
+
+    -swap min max 
+
+    
         
