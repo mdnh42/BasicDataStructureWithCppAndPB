@@ -6,3 +6,11 @@
     - Namespace 
     - if-else
     - loop 
+## Module 02 
+    - Array
+    - String 
+    - Function 
+    - Pointer 
+    - Dynamic Allocation 
+    - Vector 
+    - Swap min max 
