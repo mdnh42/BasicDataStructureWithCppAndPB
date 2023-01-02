@@ -17,3 +17,20 @@
 
 ## Contest 
     -
+
+## Lab Class 
+    -
+    - Access Modifiers 
+    - Constructor and Destructor 
+    - Dynamic Object in C++
+    - Array of Class 
+    - Sort Array of Class 
+
+# Week 02 (Time Complexity and Array)
+## Module - 01 (Time Complicity and Linear Search)
+    - Factors of Judging Algorithm 
+    - Time Complexity 
+    - Linear Search
+
+
+    
