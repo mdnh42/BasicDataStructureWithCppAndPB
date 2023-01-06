@@ -3,11 +3,14 @@
     - access object 
     - using function in object.
     - Using void, return types function in Object. Access from main function. 
+    - Recursive Object 
+    - Pointer Using this symbol ->
 
 ## Access Modifier
     - public (Access Any Scope)
-    - private (Access from another function in parameter)
-    - Inheritance     
+    - private (Access from another public function in parameter)
+    - Inheritance 
+    [Class Function extend another function]    
         - protected 
 
 
@@ -24,8 +27,10 @@
     - s-> access system; 
 
 ## Array of Class 
-## Sort Arra of Class 
 
+
+## Sort Arra of Class 
+    - Not Clear 
 
 
 

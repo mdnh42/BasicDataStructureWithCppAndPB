@@ -4,10 +4,10 @@
         * Omega () [Omega Notation] (Lower Bound)
         * Theta Notation [Theta Notation] (Upper and Lower)
     - Big O of (1):
-        Constant Operation
+        Constant Operation (simple instruction)
     - Order N [o(n)]
         Variable Notation
-    - Polynomial [O(n)/O(n^2) / O(n^3) etc.] exponential [o(n^3) / O(logn)/O(nlogn) / O(2^n)]
+    - Polynomial [O(n)/O(n^2) / O(n^3) etc.] exponential [o(n^3) / O(logn)/O(nlogn) / O(2^n) ]
     [1second - 10^9 Operation Completed]
 
     - Space Complexity
@@ -15,7 +15,7 @@
 
 ## Time Complexity
     - Constant Coplexity:
-    Statement: Takes 3 int input then find max, min, sum and product and Determine
+        Statement: Takes 3 int input then find max, min, sum and product and Determine
     TIme Complexity and Space Complexity.
     Time Complexity O(1)
     Space(Memory) Complexity O(1)
