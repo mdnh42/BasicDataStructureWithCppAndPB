@@ -32,5 +32,45 @@
     - Time Complexity 
     - Linear Search
 
+## Practice day 
+
+## Array Operation 
+    - Binary Search 
+    - Binary Search Complexity 
+    - Dynamic Array insertion 
+    - Dynamic Array Deletion 
+
+## Practice Day 2 
+
+## Lab Class About Bubble Sort, Insertion and Sieve Complexity 
+    - Introduction to Sorting 
+    - Bubble Sort 
+    - Insertion Sort 
+    - Sieve Complexty 
+
+## Assignment. 
+
+# Week 3 Sorting and Introduction to Linked List
+## Merge Sort 
+    - Why Merge Sort 
+    - Merge Sort 
+    - Quick Sort 
+
+## Practice Day 
+    
+
+## Quick Sort and Introduction to Linked List
+    - Quck Sort 
+    - Intro Linked List 
+
+## Lab Class About Linked List 
+    = Linked List Implementation 
+    - Linked List Inser at head 
+    - Linked list Traverse 
+    - Linke List Searching 
+
+    
+
+
 
     
