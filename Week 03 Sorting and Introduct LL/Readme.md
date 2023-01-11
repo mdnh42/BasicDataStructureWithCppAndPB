@@ -64,4 +64,40 @@ Suppose: n  = 10^5
     [1, 2] [5]                      [9]
     pick
 
+    Idea: Divide and Conquer Algorithm
+    Pivot Element 
+    [  ]  < Pivot > [   ]
+
+
+
+### Quick Sort Time Complexity 
+    O(nlogn)
+    Pivot Element Choose. 
+    1. Pivot Randomly choose [0, sz-1]
+    2. Random Shuffle. 
+
+
+### Intro to Linked List 1 
+    - Array Memory Concept: 
+        - Array Sequntially Store.
+        - Array 1 element takes 4 bytes memory. 
+
+### Linked intro 
+    - Linked List Linear Data Structure. 
+    - Linked List Dynamic Data Structure
+    - Linked List Memory Utilize
+    - Linked List Stack, Queue and Dequeu.
+
+    - Insertion 
+    - Searching 
+
+    Time Complexity 
+    Linked Access (o(n))
+
+### Lab Class 
+
+## Linked List Implementation - Structure. 
+    -
+
+
 
