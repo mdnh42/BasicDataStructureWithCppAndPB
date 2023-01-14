@@ -2,8 +2,7 @@
 
 using namespace std;
 int n,k;
-int Count;
-bool found=false;
+int Count =0;
 vector<int> merge_sort(vector<int>a)
 {
     if(a.size()<=1)
@@ -65,9 +64,9 @@ vector<int> merge_sort(vector<int>a)
             }
             else
             {
-                found=true;
                 Count++;
-                break;
+                i++;
+                j--;
             }
         }
     }
@@ -82,9 +81,6 @@ int main()
     cin>>v[i];
     cin>>k;
     vector<int> ans = merge_sort(v);
-    if(found)
-        cout<<Count+1;
-    else
-        cout<<Count;
+    cout<<Count;
     return 0;
 }
