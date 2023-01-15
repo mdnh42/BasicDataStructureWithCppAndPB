@@ -54,9 +54,9 @@ public:
         int index = 0;
         while(a!=NULL)
         {
-            if(a->data == value)
+            if(index == value)
             {
-                return index;
+                return a->data;
             }
             a = a->nxt;
             index++;
@@ -127,11 +127,13 @@ int main()
 
     cout<<l.getValue(6)<<"\n";
 
+
     l.printReverse();
     l.Traverse();
     l.swapFirst();
     l.Traverse();
     l.printReverse();
 
+    cout<<l.getValue(3)<<"\n";
     return 0;
 }

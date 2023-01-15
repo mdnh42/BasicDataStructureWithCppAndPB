@@ -69,6 +69,18 @@
     - Linked list Traverse 
     - Linke List Searching 
 
+## Assingment Lab 
+
+# Week 04 Deep Dive Into Liked List
+## Likned List Operations 
+    - LInked List Recap 
+    - Linked List Lenght 
+    - Linked List Insert At Any index. 
+    - Linked List Delete at head.
+    - Linked List Delete any index .
+
+## 
+
     
 
 
