@@ -1,4 +1,6 @@
 
+
+
 #include<bits/stdc++.h>
 using namespace std;
 class node
@@ -103,14 +105,9 @@ public:
             InsertAtHead(value);
             return;
         }
-        if(index<0 || index>sz)
-        {
-            return;
-        }
         sz++;
         node *a = head;
         int cur_index = 0;
-        // 1, 3, 4, 10, 5, 6
         while(cur_index != index-1)
         {
             a = a->nxt;
@@ -119,8 +116,79 @@ public:
         node *newnode = CreateNewNode(value);
         newnode->nxt = a->nxt;
         a->nxt = newnode;
-        
+        if(index<0 || index>sz)
+        {
+            return;
+        }
 
+    }
+    void DeleteAtHead(int value)
+    {
+        if(head==NULL)
+        {
+            return;
+        }
+        sz--;
+        node *a = head;
+        head = a->nxt;
+        delete a;
+    }
+    void DeleteAnyIndex(int index)
+    {
+        if(index<0||index>sz-1)
+        {
+            return;
+        }
+        if(index == 0)
+        {
+            DeleteAtHead(index);
+            return;
+        }
+        sz--;
+        node *a = head;
+        int cur_index = 0;
+        while(cur_index != index-1)
+        {
+            a = a->nxt;
+            cur_index++;
+        }
+        node *b = a->nxt;
+        a->nxt = b->nxt;
+    }
+
+    void InsertAfterValue(int value, int data)
+    {
+        node *a = head;
+        while(a != NULL)
+        {
+            if(a->data == value)
+            {
+                break;
+            }
+            a = a->nxt;
+        }
+        if(a== NULL)
+        {
+            cout<<value<<" Doest ext in linked list. \n";
+        }
+        sz++;
+        node *newnode = CreateNewNode(data);
+        newnode->nxt = a->nxt;
+        a->nxt = newnode;
+    }
+    void ReversePrint2(node *a)
+    {
+        if(a==NULL)
+        {
+            return ;
+        }
+        ReversePrint2(a->nxt);
+        cout<<a->data<<" ";
+    }
+    void ReversePrint()
+    {
+        ReversePrint2(head);
+        cout<<"\n";
     }
 };
 
@@ -130,15 +198,30 @@ int main()
     l.InsertAtHead(10);
     l.InsertAtHead(5);
     l.InsertAtHead(20);
+    l.InsertAtHead(20);
+    l.Traverse();
+    l.InsertAfterValue(10, 100);
+    l.Traverse();
+
+    l.ReversePrint();
 
     cout<<l.getSize()<<"\n";
 
-    l.InsertAtAnyIndex(1, 100);
-    l.Traverse();
-
-    l.InsertAtAnyIndex(4, 200);
-    l.Traverse();
-    cout<<l.getSize()<<"\n";
+//    l.InsertAtAnyIndex(1, 100);
+//    l.Traverse();
+//
+//    l.InsertAtAnyIndex(4, 200);
+//    l.Traverse();
+//    cout<<l.getSize()<<"\n";
+//    l.DeleteAtHead();
+//    l.Traverse();
+//    cout<<l.getSize()<<"\n";
+//
+//    l.DeleteAnyIndex(2);
+//    l.Traverse();
+//
+//    cout<<l.getSize()<<"\n";
     return 0;
 }
+
 

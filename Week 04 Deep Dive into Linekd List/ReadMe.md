@@ -56,4 +56,33 @@
     - a->nxt = b->nxt;
 
 
+# Basic Operation and Doubly Linked List
 
+## Insert After A Value
+    - Create a Function (int value and Int data)
+    - node a head declare 
+    - while loop a!=NULL
+        - check a->data == value
+            break; 
+        - a = a->nxt; 
+    - check a == NULL 
+        - doesn't exit 
+    -sz++; 
+    - node newnode = CreateNenNode(data);
+    - newnode-nxt = a ->nxt; 
+    - a->nxt = newnode. 
+# Lab Class About Doubly Linked 
+## Dubly Linked List Structure
+
+    - Declare node class 
+    - declare int data, 
+    - declare pointer nxt, prv. 
+    - Declare DoublyLinkedList Class 
+    - Declare node * head
+    - Declare size 
+    - Create Constructor function Linked List (Value Set )
+    - Head = NULL and sz = 0;
+
+##  Doubly Linked List Insertion At Head
+
+    -

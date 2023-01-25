@@ -79,7 +79,41 @@
     - Linked List Delete at head.
     - Linked List Delete any index .
 
-## 
+## More About Linked List 
+    - Linked List Insert After a value. 
+    - Reverse print of a linked list 
+    - Intro to dubly linked list 
+    - Dubly linked list insertion 
+    - Doubly Linked List Deletion 
+
+## Doubly Linked Operation 
+    - Structure 
+    - Insertion At Head 
+    - Insertion At any index
+    - List Deletion 
+    -Reverse
+
+
+## Theory Mid Term Exam 
+
+# Week 05 Recap Week 
+
+## Complexity Recap 
+    - Time and Space Complexity 
+
+## Recursion and Merge Sort 
+    - Recursion 
+    - Factorial and Coin Change 
+    - Merge Sort 
+
+
+
+
+
+
+
+
+
 
     
 
