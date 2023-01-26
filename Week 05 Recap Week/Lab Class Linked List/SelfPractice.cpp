@@ -29,7 +29,8 @@ class DoublyLinkedList{
     void InsertAtHead(int data)
     {
         node* a = head;
-
+        CreateNewNode(int data)
+        if
     }
 
 
