@@ -210,16 +210,19 @@ public:
 
     void DeleteZero()
     {
-        node *a = head;
-        int cur_index = 0;
-        while(cur_index == 0)
+        node* a=head;
+        while(a!=NULL)
         {
-            a = a->nxt;
-            cur_index++;
+            if(a->data==0)
+            {
+                node* b=a;
+                a=b->next,
+                delete b;
+            }
+            cout<<a->data<<" ";
+            a=a->next;
         }
-        node *b = a->nxt;
-        a->nxt = b->nxt;
-        delete b;
+        cout<<"\n";
     }
 
 //    int getOddIndexSum()
