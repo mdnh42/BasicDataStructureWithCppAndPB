@@ -53,16 +53,20 @@ public:
     // Return Last Element
     int getLast()
     {
-        node *a = head;
-        while(a->nxt != NULL)
+        if(head == NULL)
         {
-            a = a->nxt;
+            return -1;
+        }
+        node *a = head;
+        while(a!=NULL)
+        {
+
             if(a->nxt == NULL)
             {
                 return a->data;
             }
+            a = a->nxt;
         }
-        return -1;
     }
     // Double GEt Average
     double getAverage()

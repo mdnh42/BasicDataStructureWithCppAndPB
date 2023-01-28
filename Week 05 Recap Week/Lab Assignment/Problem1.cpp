@@ -1,21 +1,23 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int n;
-    cin>>n;
-    vector<int>arr(n);
-
-    for(int i=1; i<=n; i++)
+    cin >> n;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++)
     {
-        cin>>arr[i];
+        cin>> v[i];
     }
-
-    for(int i=n; i>=1; i--)
+    for (int i = 0, j =n-1; i<n/2; i++, j--)
     {
-        cout<<arr[i]<<" ";
+        int temp = v[i];
+        v[i] = v[j];
+        v[j] = temp;
     }
-
+    for (int i=0; i<n; i++)
+    {
+        cout<<v[i]<< " ";
+    }
     return 0;
 }

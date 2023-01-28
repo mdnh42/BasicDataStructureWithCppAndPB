@@ -1,9 +1,5 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
-
-
 class node
 {
 public:
@@ -49,7 +45,7 @@ public:
         head = newnode;
     }
 
-    //Inserts the given data at the given index O(n)
+    //Inserts the given data at the given index O👎
     void Insert(int index, int data)
     {
         if(index > sz)
@@ -80,7 +76,7 @@ public:
 
 
 
-    //Prints the linked list O(n)
+    //Prints the linked list O👎
     void Traverse()
     {
         node *a = head;
@@ -91,10 +87,45 @@ public:
         }
         cout<<"\n";
     }
-
+    void deleteNode(node *a)
+    {
+       node *b=a->prv;
+       node *c=a->nxt;
+        if(b!=NULL)
+        {
+            b->nxt=c;
+        }
+        if(c!=NULL)
+        {
+            c->prv=b;
+        }
+        delete a;
+    }
     void deleteZero()
     {
-        // Unsolved
+        if(head ==NULL)
+            return;
+
+        if(head->data == 0)
+        {
+            node *temp = head;
+            head = head->nxt;
+            head->prv = NULL;
+            delete temp;
+        }
+        node *cur = head;
+        node *next;
+        while(cur != NULL)
+        {
+            if(cur->data == 0)
+            {
+                next = cur->nxt;
+                deleteNode(cur);
+                cur = next;
+            }
+            else
+                cur = cur->nxt;
+        }
     }
     void swapNodes( int x, int y)
     {
@@ -155,6 +186,7 @@ int main()
     dl2.InsertAtHead(0);
     dl2.InsertAtHead(2);
     dl2.InsertAtHead(0);
+    dl2.Traverse();
     dl2.deleteZero();
     dl2.Traverse();
 
