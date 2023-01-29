@@ -110,6 +110,22 @@
 ## Lab Class About singly and Doubly Linked Insertion and Deletion 
 
 
+# Week 06 Stack and Template in C++  
+## Stack 
+    - Stack Theory
+    - Stack Using Array Thery 
+    - Stack Implementation using Dynamic Array
+    - Stack using Linked List Theory 
+    - Stack Implementation using Linked List 
+
+## Template in C++ 
+    - Template in C++
+    - Template Based Stack Part 1 
+    - Template Based Stack Part 2
+    - Reverse a stack using another stack 
+    - Sorting a Stack 
+
+
 
 
 
