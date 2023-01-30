@@ -29,7 +29,11 @@ display(): It prints all the elements available in the stack.
 
 
 ## Template in C++ 
-    
+    1. Stack Implementation in Template based 
+    2. Stack use Sortint 
+    3. Stack Reverse 
+
+
 
 
 
