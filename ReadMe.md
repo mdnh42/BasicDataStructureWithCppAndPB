@@ -126,6 +126,31 @@
     - Sorting a Stack 
 
 
+## Lab About Stack and List Operation 
+    - list<int> l 
+    - push_front (Insert at A Head)
+    - Iterator or auto 
+    - begin() and end()
+    - push_back() and push front()
+    - pop_back() and pop_front()
+    
+    // Insert Any Positon 
+    auto it = l.begin();
+    advance(it, 1);
+    l.insert(it, 100);
+    print(l);
+
+    // Stack Built in Function 
+    Pop, push and top 
+
+    // Regular Braket sequence check 
+    () {} []
+
+    // infix to postfix 
+    infix = a+b*c+d
+    postfix = abc*+d+
+    
+
 
 
 

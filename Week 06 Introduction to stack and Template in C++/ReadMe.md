@@ -33,7 +33,9 @@ display(): It prints all the elements available in the stack.
     2. Stack use Sortint 
     3. Stack Reverse 
 
-
+    
+## Stack and List 
+    - 
 
 
 
