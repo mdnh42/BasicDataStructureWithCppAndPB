@@ -7,19 +7,22 @@ int main()
     cin>>n;
     vector<int>primes;
     vector<bool>visited(n+1);
-
     for(int i=2; i<=n; i++)
     {
-        f(visited[i] == false)
+        if(visited[i] == false)
         {
             primes.push_back(i);
-            for(int x =2; i*x<=n; x++)
+            for(int x=2; i*x<=n; x++)
             {
-                visited[x] = true;
+                visited[i*x] = true;
             }
         }
     }
-    cout<<prime.size()<<"\n";
-
+    cout<<primes.size()<<"\n";
+    for(int i=0; i<primes.size(); i++)
+    {
+        cout<<primes[i]<<" ";
+    }
+    cout<<"\n";
     return 0;
 }

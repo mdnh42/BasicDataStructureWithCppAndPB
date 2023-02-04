@@ -52,23 +52,32 @@ public:
         }
         return a[stack_size-1];
     }
+    void access()
+    {
+
+        cout<<a[2]<<" ";
+    }
+
 };
 
 int main()
 {
     Stack st;
     st.push(3);
-    cout<<st.top()<<"\n";
+//    cout<<st.top()<<"\n";
     st.push(4);
-    cout<<st.top()<<"\n";
+//    cout<<st.top()<<"\n";
     st.push(5);
-    cout<<st.top()<<"\n";
-    st.pop();
-    cout<<st.top()<<"\n";
-    st.pop();
-    cout<<st.top()<<"\n";
-    st.pop();
-    cout<<st.top()<<"\n";
+//    cout<<st.top()<<"\n";
+//    st.pop();
+//    cout<<st.top()<<"\n";
+//    st.pop();
+//    cout<<st.top()<<"\n";
+//    st.pop();
+//    cout<<st.top()<<"\n";
+    st.access();
+    cout<<st.a[2]
+
 
 
     return 0;

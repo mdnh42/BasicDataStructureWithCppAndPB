@@ -35,7 +35,17 @@ display(): It prints all the elements available in the stack.
 
     
 ## Stack and List 
-    - 
+    
+
+## Lab Class About List and Problem Solving 
+    - List C++ STL Function 
+    - Stack C++ STL Built in Function 
+    - Regular Braket Sequence Check 
+    - Infix to Postfix 
+
+
+## Theory Exam About Week 6 
+
 
 
 

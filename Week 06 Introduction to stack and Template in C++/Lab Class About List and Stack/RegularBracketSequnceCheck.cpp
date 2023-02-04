@@ -1,5 +1,6 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+
 
 int main()
 {
@@ -7,11 +8,10 @@ int main()
     cin>>s;
 
     stack<char>st;
-
     for(int i=0; i<s.size(); i++)
     {
         char now = s[i];
-        if(now=='(' || now =='{' || now == '[')
+        if(now == '(' || now=='{' || now =='[')
         {
             st.push(now);
         }
@@ -22,7 +22,7 @@ int main()
                 cout<<"Invalid\n";
                 return 0;
             }
-            if(now==')' && st.top() == '(')
+            if(now==')' && st.top()=='(')
             {
                 st.pop();
             }
@@ -30,12 +30,11 @@ int main()
             {
                 st.pop();
             }
-            else if(now == ']' && st.top() == '[')
+            else if(now==']' && st.top()=='[')
             {
                 st.pop();
             }
-            else
-            {
+            else{
                 cout<<"Invalid\n";
                 return 0;
             }
@@ -45,8 +44,7 @@ int main()
     {
         cout<<"Valid\n";
     }
-    else
-    {
+    else{
         cout<<"Invalid\n";
     }
     return 0;
