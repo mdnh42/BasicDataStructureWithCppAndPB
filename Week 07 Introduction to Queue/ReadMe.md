@@ -52,4 +52,22 @@
 
     - Dynamic Queue Implementation 
 
-    
+
+
+
+## More About Queue 
+    - Queue using linked list Theory (Singly Linked List)
+        * Tail [Enqueue]
+        * DeleteAtHead [dequeue]
+        * head Data [ front]
+        * sz++ and sz--
+
+    - Queue Using Linked List Implementaion 
+        
+    - STL Queue 
+        = enqueue (push)
+        = dequeue (pop)
+        = front (front)
+        = size (size)
+
+    - 
