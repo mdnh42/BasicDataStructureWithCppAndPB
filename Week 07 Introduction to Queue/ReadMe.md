@@ -71,3 +71,29 @@
         = size (size)
 
     - 
+
+
+## Deque 
+    - Deque using linked List (Theory)
+        - Deque singly list not implement 
+        - Deque also implement using doubly Linked
+        - Deque Basic Operation 
+        - Push_front, Push_back
+        - Pop_front, Pop_back
+        - Size 
+        - Front Element and Back Element 
+
+    - Deque Reverse Tecneque (Pretty Intuitive)
+        - Push_fornt - push_back 
+        - push_back - push_front
+        - Pop_front - pop_back
+        - Front - Back 
+        - Back -Front
+        if(reverse = 0)
+        { 
+            insertTail
+        }
+        else
+        { 
+            insertHead
+        }
