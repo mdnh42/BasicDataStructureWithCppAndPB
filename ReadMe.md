@@ -167,6 +167,11 @@
         - Binary Conversiont using queue theory 
         - Binary conversion using queue implementation 
 
+    ## Lab Class About Deque
+        - Deque using Doubly Linked List 
+        - Reverse a deque 
+        
+
 
 
 

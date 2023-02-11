@@ -97,3 +97,20 @@
         { 
             insertHead
         }
+
+## Practice day 
+    - Compare between Stack, Queue and Deque.
+    = Stack
+        - LIFO Format 
+        - Last in First Out
+        - Basic Operation Push(Insert Last Element)
+        - Pop(First Element) 
+
+    = Queue 
+        - FIFO 
+        - First In First Out 
+    
+    = Deque 
+        - Push_front, Push_back
+        - pop_front, pop_back
+        - 
