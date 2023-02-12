@@ -113,4 +113,6 @@
     = Deque 
         - Push_front, Push_back
         - pop_front, pop_back
-        - 
+        - front and Back; 
+    
+    - 

@@ -172,10 +172,47 @@
         - Reverse a deque 
         
 
+    ## Lab Assignment 
+
+# Week 08 Binary Tree 
+    ## Non Linear DS and Tree 
+    - Array, Linked List, Stack, Queue, Deque (Linear DS)
+    - Tree and Graph Non- Linear 
+    
+    = Tree 
+        - No Cycle
+        - Level Infinity 
+        
+
+    = Most Popular Binary Tree. 
+        - At most 2 Child 
+        - Binary Search Tree
+        - Heap 
+        - AVL Tree
+        - Red Black Tree
+        - Treap 
+        - Splay Tree
+        - Segment Tree
+
+
+    ## Introduction to Graph and Tree
+        - 
 
 
 
 
+    ## Variations of Binary Tree 
+        
+        - Full Binary Tree
+            = Every nodes has 0 or 2 child
+        - Complete Binary Tree
+            = Every node has filled up without last level;
+        - Perfect Binary Tree 
+            = All Level are filled. 
+
+
+    ## Binary Tree Structure Theory 
+        -
 
 
 
