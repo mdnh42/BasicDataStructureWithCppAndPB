@@ -9,7 +9,6 @@ using namespace std;
 class node
 {
 public:
-
     int id;
     int value;
     node *Left;
