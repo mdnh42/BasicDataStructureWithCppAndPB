@@ -138,6 +138,29 @@
         - Postorder 
 
 
+## BST 
+    - Introduction to BST 
+        - Binary Search Parent Node>Left Sub Tree
+        - Binary Search Parent Node<Right Sub Tree 
+
+    - BST Insertion Theory O(height)
+        - Take Some Number 
+        - Make a Tree 
+        - If (Parent<Number = Right Child) 
+        - Parent>Number = Left Child
+    
+    -BST Insertion Implementaton 
+        -
+
+    - BST Searcing 
+        - Check Root>k 
+
+    - BST Deletion 
+        - No Child 
+        - At Most One Child 
+        - Two Child 
+        
+
 
 
     
