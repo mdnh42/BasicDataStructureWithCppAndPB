@@ -127,21 +127,64 @@
         5th Step: {5}
         6th Step: {}
 
-    - BFS Implementation 
+    - DFS (Depth First Search) Traversal
+        - DFS Traversal 
+        - Search to one Side Depth
+        - F(Root)
+        - Recursive Defination 
+        - Implementation: 
+            - Take Node *a 
+            - Base Case a = NULL Return 
+            - Print a-ID: 
+            - DFS a->Left
+            - DFS a->Right
         
-
-
-
-    - DFS (Depth First Search)
+        - DFS Popular Variants 
         - Inorder 
+            - F(Left Child) + Root + R (Right Child)
+            - Implementaion 
+                - Take Node 
+                - Base Case Node = NULL Return 
+                - Inorder(a->Left)
+                - Print Current Root 
+                - Inorder(a->Right)
         - Preorder 
+            - Root + F(Left Child) + R (Right Child)
+
         - Postorder 
+            - F(Left Child) + R (Right Child) + Root
 
 
-## BST 
+       - Binary Tree Insertion  BFS Insertion 
+            - Create A New Node 
+            - Root NULL Return 
+            - Take a Queue Node 
+            - Push Root Value 
+            - Queu Not Equal Empty Traversal 
+            - Queue Check Front Value 
+            - Pop The Value 
+            - Check Node-Left Not = NULL 
+                -Push a->Left 
+            - Else Node Left = Newnode 
+                - Newnode->Parent = a; Return 
+            - Check Node-Right Not = NULL
+                - Push a->Right 
+            - Else Node RIght = Newnode 
+                - Newnode->Parent = a Return 
+
+    - Binary Tree Searching Function 
+        - Have ID and Value? 
+        - Take Node and Value 
+        - Node = NULL Return 
+        - Node->value == Value 
+        - Print 
+        - Search a->Left, Value
+        - Search a->Right, Value 
+        
+## BST - Binary Search Tree 
     - Introduction to BST 
-        - Binary Search Parent Node>Left Sub Tree
-        - Binary Search Parent Node<Right Sub Tree 
+        - Binary Search Parent Node>=Left Sub Tree
+        - Binary Search Parent Node<=Right Sub Tree 
 
     - BST Insertion Theory O(height)
         - Take Some Number 
@@ -149,9 +192,7 @@
         - If (Parent<Number = Right Child) 
         - Parent>Number = Left Child
     
-    -BST Insertion Implementaton 
-        -
-
+    
     - BST Searcing 
         - Check Root>k 
 

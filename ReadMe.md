@@ -192,3 +192,11 @@
     - Inorder, Preorder and Postorder Traversal 
     - Insertion 
     - Searching 
+
+
+# BST 
+    - Introduction of BST
+    - BST Insertion 
+    - BST Searching 
+    - BST Deletaion 
+    
