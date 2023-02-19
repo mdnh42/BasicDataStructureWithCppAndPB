@@ -187,7 +187,13 @@
         - Binary Search Parent Node<=Right Sub Tree 
 
     - BST Insertion Theory O(height)
-        - Take Some Number 
+        - Declare Node (Value, L,R)
+        - Declare BST Class Create Root 
+        - BST COnstructor Inital Value Root = NULL
+        - CreateNewNode(int value)
+        - BFS Traversal 
+        -
+        Take Some Number 
         - Make a Tree 
         - If (Parent<Number = Right Child) 
         - Parent>Number = Left Child
