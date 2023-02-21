@@ -9,6 +9,12 @@
         - Heap Binary Tree. (Complete Binary Tree (Except Last Level))
         - Max Heap O(1)
         - Up_heapify 
+        - Assume Insert 9 in a Complete Binary Tree last index. 
+        - When Not match heap Property 
+        - Call Your Up_heapify Function 
+            - How to Works: UP_HEAPIFY FUNC: 
+            - Check Parent == Child swapppping 
+            
 
     - Structure 
         - vector<int>nodes; 
