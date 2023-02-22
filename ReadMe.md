@@ -199,4 +199,36 @@
     - BST Insertion 
     - BST Searching 
     - BST Deletaion 
-    
+
+
+# Week 09 Heap and STL 
+
+## Introduction to Heap 
+    - Heap Insertion Theory 
+    - Heap Insertion Implementation 
+    - Heap Delete Theory and Implementation 
+    - Heap Max Operation Implementation 
+
+## Heap and STL 
+    - Buil Heap From Array  
+    - Build Heap complexity 
+    - Heap Sort 
+    - Prioriryt Queue 
+    - STL Priority Queue 
+    - Priority Queue Example Problem 
+
+## STL C++
+    - Vector
+    - List
+    - Stack 
+    - Quue
+    - Deque
+    - Set
+    - Multiset 
+    - STL Pair 
+    - STL Map 
+
+
+
+Final Lab Final Assignment 
+=====================================Ending Course ================================
